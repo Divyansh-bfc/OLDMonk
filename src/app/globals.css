@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-om-gold: #D4AF37;
+  --color-om-dark: #1a1a1a;
+  --color-om-brown: #3E2723;
+  --font-serif: var(--font-playfair), serif;
+  --font-sans: var(--font-inter), sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-om-dark);
+    color: #fef3c7;
+    /* amber-50 */
+  }
+}
